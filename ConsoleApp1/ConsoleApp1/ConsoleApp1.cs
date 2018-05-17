@@ -1,6 +1,7 @@
 ﻿using System;
 using alias2a = ConsoleApp2.Program2;
 using alias2b = ConsoleApp22.Program22;
+using ConsoleApp22;
 
 class UsingDirectives
 {
@@ -10,6 +11,7 @@ class UsingDirectives
         alias2b.print();
         ConsoleApp1.Program1.print();
         ConsoleApp11.Program11.print();
+        ConsoleApp22.Program22a.print();
     }
 }
 

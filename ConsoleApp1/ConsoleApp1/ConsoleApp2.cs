@@ -12,6 +12,13 @@ namespace ConsoleApp2
             Console.WriteLine("This is from ConsoleApp2 namespace Program2");
         }
     }
+    class Program2a
+    {
+        public static void print()
+        {
+            Console.WriteLine("This is from ConsoleApp2 namespace2a");
+        }
+    }
 }
 
 namespace ConsoleApp22
@@ -21,6 +28,13 @@ namespace ConsoleApp22
         public static void print()
         {
             Console.WriteLine("This is from ConsoleApp22 namespace Program22");
+        }
+    }
+    class Program22a
+    {
+        public static void print()
+        {
+            Console.WriteLine("This is from ConsoleApp22 namespace Program22a");
         }
     }
 }
